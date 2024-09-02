@@ -1,0 +1,335 @@
+.link {
+    list-style-type: none;
+    padding: 10px 40px 10px 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+}
+.link>a {
+    text-decoration: none;
+    color: #ad000f;
+    transition: color 0.25s ease;
+}
+.link>a:hover {
+    color: #630005;
+}
+.nav-container {
+    background-color: #ffe0e3;
+}
+.tagline {
+    font-family: serif;
+    margin-top: 350px;
+    font-size: 76px;
+    line-height: 90px;
+    position: absolute;
+    letter-spacing: 4px;
+    color: #AB1E22;
+}
+.nav-img-resize {
+    height: 100vh;
+    object-fit: contain;
+    margin-top: 8px;
+}
+.container-1 {
+    position: relative;
+}
+.overlay {
+    z-index: 2;
+}
+.logo-resize {
+    width: 211px;
+    z-index: 9;
+    margin-left: 30px;
+}
+.section-1-button {
+    margin-top: 150px;
+    position: absolute;
+    top: 395px;
+    z-index: 10;
+}
+.link-shop>a {
+    color: black;
+}
+.link-shop:hover {
+    background-color: white!important;
+    color: #630005!important;
+}
+.link-shop {
+    text-decoration: none;
+    padding: 10px 55px 10px 55px;
+    border: 2px #ffe0e3 solid!important;
+    color: #ad000f!important;
+    background-color: #ffe0e3!important;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;  
+}
+.promo-img {
+    height: 195px;
+    text-align: center;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    height: auto;
+}
+
+.promo-box {
+    background-color: rgba(60,63,71, 0.45);
+    z-index: 10;
+}
+.promo-header {
+    color: #FCBCB2;
+    font-family: serif;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-top: 75px;
+}
+.promo-text {
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans Narrow';
+    letter-spacing: 2px;
+    padding: 30px 0 30px 0;
+}
+.promo-link {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 0 0 45px 0;
+}
+.bk-1 {
+    display: inline;
+    height: 750px;
+}
+.bk-2 {
+    display: inline;
+    height: 750px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.bk-primary {
+    background-color: #31353D;
+    height: 500px;
+}
+.promo-shop-header {
+    color: white;
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin: 2em 0 0 0;
+
+}
+.promo-shop-1 {
+    margin: 300px 0px 10px 0px;
+}
+#two-sec {
+    background-image: url(img7.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.row-test {
+    padding-top: 7em;
+    position: absolute;
+}
+.side-1 {
+    background-color: rgba(49, 53, 61, 0.5);
+    margin-left: 6.75em;
+}
+.side-2 {
+    background-color: rgba(252, 211, 205, 0.5);
+}
+.side-header-text {
+    font-family: serif;
+    text-align: center;
+    font-size: 36px;
+    padding: 2.9em 1.8em 13.9px 1.8em;
+}
+.section-3-button {
+    color: white!important;
+    text-transform: uppercase;
+    margin-top: 2em;
+    background-color: rgba(252, 211, 205, 0.5)!important;
+    border-color: #fcd3cd;
+}
+.section-3-button:hover {
+    background-color: rgba(49, 53, 61, 0.5)!important;
+    color: white!important;
+    border-color: white!important;
+}
+.center {
+    text-align: center;
+}
+.section-3-button-container {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.button-2 {
+    background-color: rgba(49, 53, 61, 0.5)!important;
+    border: 2px rgba(49, 53, 61, 0.5) solid!important;
+    text-transform: uppercase;
+}
+.button-2:hover {
+    background-color: rgba(252, 211, 205, 0.5)!important;
+    border-color: rgba(252, 211, 205, 0.5)!important;
+    color: white!important;
+}
+.section-4-header {
+    font-family: serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    padding-top: 2.5em;
+}
+.best-seller-img {
+    width: 320px;
+}
+
+.best-seller-txt {
+    font-size: 16px!important;
+    font-family: serif;
+    border-radius: 4px!important;
+    font-weight: 400!important;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 10px!important;
+}
+.left {
+    text-align: left;
+}
+.best-seller-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-top: 1em;
+    text-align: center;
+    font-size: 16px;
+}
+.test-div {
+    height: 25px;
+    background-color: white;
+    transition-property: height, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    font-size: 'Plus Jakarta Sans', sans-serif;
+}
+.test-div:hover {
+    height: 50px;
+    background-color: #31353D;
+}
+.shop-all {
+    padding:  10px 50px 10px 50px;
+    text-transform: uppercase;
+}
+footer {
+    background-color: #31353D;
+    height: 50px;
+}
+.footer-link {
+    display: inline;
+   
+}
+.footer-link>a {
+    padding: 1em;
+}
+.product-price {
+    color: #696969;
+    padding-top: 1.25em;
+}
+.w-60 {
+    width: 65%!important;
+}
+.wow-effect>div {
+    margin:-31.5em auto;
+}
+@media screen and (min-width: 1297px) {
+    .wow-effect>div {
+      margin: -23.5em auto;
+    }
+    body {
+        min-width: 1297px;
+    }
+  }
+  @media screen and (min-width: 1590px) {
+    .wow-effect>div {
+      margin: -27.5em auto;
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .side-1 {
+      margin-left: 0.7em;
+    }
+    
+  }
+  @media screen and (min-width: 1280px) {
+    .wow-effect>div {
+        margin: -23.5em auto;
+    }
+  }
+  @media screen and (max-width: 1212px) {
+     .wow-effect>div {
+        margin: -22.5em auto;
+     }
+           
+    }
+.review {
+    font-size: 24px;
+}
+.shop-all-header {
+    font-family: 'PT Sans Narrow';
+    color: #FCBCB2;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 135px 0 50px 0;
+    background-color: #31353D;
+}
+.shop-all-filter {
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.option {
+    font-size: 20px;
+    padding: 20px 0 20px 5px;
+    transition: background-color 0.25s;
+}
+.option>a {
+    text-decoration: none;
+    color: #630005;
+}
+.option:hover {
+    background-color: rgba(128, 128, 128, 0.593);
+    color: white;
+}
+.option-link:hover {
+    color: white;
+}
+.shop-all-image {
+    width: 300px;
+}
+.shop-all-product-name {
+    font-family: 'PT Sans Narrow';
+}
+.shop-all-price {
+    font-family: 'PT Sans Narrow';
+}
+.sc-shop {
+    margin-left: 15em;
+}
+@media screen and (min-width: 1200px) {
+    .sc-shop {
+        margin-left: 20.6em;
+    }
+
+  }
+  @media screen and (max-width: 1199.99px) {
+    .body {
+        opacity: 10%;
+    }
+    .offcanvas {
+        visibility: visible!important;
+    }
+  }
+
